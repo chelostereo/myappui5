@@ -1,0 +1,29 @@
+<core:View 
+	displayBlock="true"
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="opensap.bootcamp.myappui5.controller.App">
+	<Page title="Title">
+		<content>
+
+		</content>
+	</Page>
+	
+	<Carousel class="sapUiContentPadding" loop="true">
+		<pages>
+			<Image 
+				src="http://www.labqualitymachining.com/wp-content/uploads/2017/11/Small-8-Seat-Carousel-Ride-For-Kids.jpg" 
+				height="400px"
+				alt="Example picture of speakers"/>
+			<Image 
+				src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Behaims_Erdapfel.jpg" 
+				height="400px"
+				alt="Example picture of USB flash drive"/>
+		</pages>
+	</Carousel>
+	<Button text="Say Hello" type="Accept" press="onShowHello" />
+	
+	
+</core:View>

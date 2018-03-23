@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv='Content-Type' content='text/html;charset=UTF-8' />
+
+
+<script 
+	id="sap-ui-bootstrap"
+	src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+	data-sap-ui-theme="sap_bluecrystal" 
+	data-sap-ui-libs="sap.m"
+	data-sap-ui-compatVersion="edge" 
+	data-sap-ui-preload="async"
+	data-sap-ui-resourceroots='{
+		"opensap.bootcamp.myappui5": "./"}'>
+	
+</script>
+
+<!-- add sap.ui.table,sap.ui.ux3 and/or other libraries to 'data-sap-ui-libs' if required -->
+
+<script>
+
+sap.ui.getCore().attachInit(function () {
+	sap.ui.xmlview({
+		viewName: "opensap.bootcamp.myappui5.view.App"
+	}).placeAt("content");
+});
+
+// 	var oCore = new sap.ui.core.Core();
+// 	oCore.attachInit(function() {
+// 		new sap.m.Button({
+//             text: "Say Hello",
+//             press: function() {
+//                sap.m.MessageToast.show("Hello World");
+//             }
+//         }).placeAt("content");
+		
+		
+// 		var oImage = new sap.m.Image(
+// 				{
+// 					sId: "imagen_globo_terraqueo"
+// 				},
+// 				{
+// 					src: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Behaims_Erdapfel.jpg"
+// 				}
+// 			).placeAt("content");
+// 	});
+// 	sap.ui.getCore().attachInit(function() {
+// 		alert("SAPUI5 is ready");
+// 	});
+
+</script>
+
+
+
+</head>
+<body class="sapUiBody" id="content">
+</body>
+</html>
